@@ -1,0 +1,10 @@
+url: 
+   base_url: http://httpbin.org   #接口环境https://test.onepayidn.com/
+log:
+   log_name: "C:/Users/Administrator/workspace/api_pytest_demo/log/"
+   file_log_level: info
+   file_log_format: "[%(asctime)s]-%(filename)s-->%(funcName)s-%(levelname)s-line:%(lineno)d--%(message)s"
+   console_log_level: info
+   console_log_format: "[%(asctime)s]-%(filename)s-->%(funcName)s-%(levelname)s-line:%(lineno)d--%(message)s"
+report: 
+   report_name: "C:/Users/Administrator/workspace/api_pytest_demo/report/reports.html"

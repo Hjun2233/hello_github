@@ -1,0 +1,7 @@
+pytest
+pytest-xdist           #多CPU分发执行用例 -n NUM
+pytest-ordering	       #改变用例执行顺序 @pytest.mark.run(order=NUM)
+pytest-rerunfailures   #失败重跑  --reruns NUM 
+pytest-html    		   #html格式报告  --html ./report/report.html
+allure-pytest    	   #allure报告 1.生成临时报告：--alluredir ./temp 2.生成最终报告：allure generate ./temp -o ./report --clean 
+					   #allure generate:固定写法;   -o:输出，即output;  ./report:生成报告的位置; --clean:清空原路径的报告
